@@ -59,7 +59,7 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 export default {
   name: 'page1',
   data() {
