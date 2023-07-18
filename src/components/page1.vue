@@ -79,7 +79,7 @@ export default {
 
 <style scoped>
 #about {
-  background: url("src/assets/vueconf2023_bg.jpg") no-repeat fixed center;
+  background: url("https://img.w3ctech.com/vueconf2023_bg.JPG") no-repeat fixed center;
   background-size: cover;
 
   font-family: "PingFang SC", "Helvetica Neue", Helvetica, "Microsoft Yahei", "HanHei SC", Arial, sans-serif;
