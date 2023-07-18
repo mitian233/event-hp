@@ -59,17 +59,18 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   name: 'page1',
   data() {
     return {}
   },
   methods: {
-    smoothScroll: function(target) {
-      const targetElement = document.querySelector(target);
+    smoothScroll: function(target: string) {
+      const targetElement = document.querySelector(target) as HTMLElement;
+      const offsetTop = targetElement.offsetTop;
       window.scrollTo({
-        top: targetElement.offsetTop,
+        top: offsetTop,
         behavior: 'smooth'
       });
     }
